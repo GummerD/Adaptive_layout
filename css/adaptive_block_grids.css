@@ -3,6 +3,13 @@
     padding: 0 ;
 }
 
+
+.link{
+    display: flex;  
+    justify-content: center;
+    margin-top: 25px;
+
+}
 .title-adaptive{
     text-align: center;
     margin: 0;
