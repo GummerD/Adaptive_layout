@@ -11,15 +11,6 @@
     background-color: dodgerblue;
 }
 
-.wrapper-adaptive-img{
-    width: 1200px;
-    display: grid;
-    gap: 1vw;
-    grid-template-columns: repeat(3, 350px);
-    grid-template-rows: repeat(2, 270px);
-    justify-content: center;
-}
-
 .adaptive-img-1{
     background-image: url('./../Адаптивная верствка изображений//img/mini/1.jpg');
 }
@@ -39,13 +30,23 @@
     background-image: url('./../Адаптивная верствка изображений//img/mini/6.jpg');
 }
 
+.wrapper-adaptive-img{
+    width: 1200px;
+    height: 5%;
+    display: grid;
+    gap: 2vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    
+}
+
 .adaptive-img{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 25px;
     border: 1px solid black;
     width: 100%;
-    height: 100%;
+    height: 10vw;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     justify-content: center;
@@ -61,9 +62,8 @@
 
     .wrapper-adaptive-img{
         width: 1000px;
-        height: 80vw;
-        grid-template-columns: repeat(3, 330px);
-        grid-template-rows: repeat(2, 240px);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
      
     }
 }
@@ -73,10 +73,8 @@
     }
     .wrapper-adaptive-img{
         width: 768px;
-        height: 30vw;
-        gap: 9px;
-        grid-template-columns: repeat(3, 250px);
-        grid-template-rows: repeat(2, 180px);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 }
 
@@ -86,8 +84,7 @@
     }
     .wrapper-adaptive-img{
         width: 480px;
-        height: 50vw;
-        grid-template-columns: repeat(2, 200px);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows:none;
     }
 }
@@ -98,10 +95,9 @@
     }
 
     .wrapper-adaptive-img{
-        width: 450px;
-        height: 75vw;
-        grid-template-columns: repeat(1, 150px);
-        grid-template-rows: repeat(6, 90px);
+        width: 180px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         
     }
 }
@@ -112,20 +108,18 @@
     }
 
     .wrapper-adaptive-img{
-        width: 360px;
-        height: 80vw;
-        grid-template-columns: repeat(1, 100px);
-        grid-template-rows: repeat(6, 60px);
+        width: 160px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         
     }
 }
 
 @media (max-width: 360px) {
     .wrapper-adaptive-img{
-        width: 250px;
-        height: 80vw;
-        grid-template-columns: repeat(1, 80px);
-        grid-template-rows: repeat(6, 40px);
+        width: 130px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         
     }
 }
