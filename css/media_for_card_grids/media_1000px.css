@@ -1,0 +1,23 @@
+.wrapper-card-sidebar-navbar-footer {
+    max-width: 1000px;
+    margin-top: 15px;
+    grid-template-columns: 1fr 150px;
+    grid-template-rows: 100px 650px 150px;
+
+}
+
+.card {
+    grid-template-columns: 350px;
+    grid-template-rows: 150px 100px;
+    grid-template-areas:
+        "card-img "
+        "text";
+}
+
+.siderbar-input {
+    width: 100px;
+}
+
+.siderbar-label-span {
+    font-size: 1.8vw;
+}

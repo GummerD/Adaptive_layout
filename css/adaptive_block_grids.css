@@ -19,7 +19,7 @@
     margin-top: 20px;
     display: grid;
     width: 1200px;
-    height: 100vw;
+    height: 30vw;
     gap: 15px;
     grid-template-columns: 1fr 300px;
     justify-content: center;
@@ -50,7 +50,7 @@
 
     .wrapper{
         width: 1000px;
-        height: 80vw;
+        height: 45vw;
         gap: 14px;
         grid-template-columns: 1fr 250px;
      
@@ -62,7 +62,7 @@
     }
     .wrapper{
         width: 768px;
-        height: 30vw;
+        height: 50vw;
         gap: 9px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -76,7 +76,7 @@
     }
     .wrapper{
         width: 480px;
-        height: 50vw;
+        height: 55vw;
     }
 }
 
@@ -87,7 +87,7 @@
 
     .wrapper{
         width: 360px;
-        height: 75vw;
+        height: 60vw;
         
     }
 }
@@ -99,7 +99,7 @@
 
     .wrapper{
         width: 200px;
-        height: 80vw;
+        height: 70vw;
         
     }
 }
