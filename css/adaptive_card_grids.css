@@ -3,12 +3,18 @@
     padding: 0;
 }
 
+:root{
+    --index: calc(1vw + 1vh);
+
+}
+
 body{
     width: 1200px;
 }
 
 header{
     text-align: center;
+    font-size: calc(var(--index) * 1);
 }
 
 .wrapper-card-sidebar-navbar-footer{
